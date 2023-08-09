@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Estrutura HTML da página inicial do site -->
+<!-- lang define o idioma da página-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- As tags a seguir, title e link, definem o nome e ícone da página que serão exibidos no aba do navegador -->
+    <title>BNH - Academy</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icone_bnh_allmight.jpg">
+
+    <!-- A seguir estão sendo linkados os arquivos css que definirão a estilização da página -->
+    <!-- reset.css resetá/zera/normaliza todo e qualquer estilo predefinido pelo navegador -->
+    <!-- style.css define a estilização a ser aplicada na página -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página: logo e nome do site -->
+    <header id="topo">
+        <img class="logo" src="imagens/nezu_icone.jpeg" alt="Diretor Nezu">
+        <h1 class="titulo">A Academia de Heróis U.A</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul class="menu">
+            <li class="item-menu"><a href="index.html">Informações</a></li>
+            <li class="item-menu"><a href="sobre.html">Sobre a U.A</a></li>
+            <li class="item-menu"><a href="contato.html">Entre em Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
+    <main>
+        <!-- Seção 1: contém imagem e texto -->
+        <section class="curso-info">
+            <h2 class="titulo-section">a escola número um na formação de novos heróis</h2>
+            <img class="curso-img" src="imagens/fundo-escola.jpg">
+            <p class="curso-paragrafo">A U.A é uma escola de prestígio localizada na cidade de Musutafu, no Japão e é dirigido pelo Diretor Nezu, contendo diversos professores
+                de alta performace, levando os alunos ao ápice de suas habilidades e explorando seus limites para enfiim se tornarem grandes heróis no futuro.
+            </p>
+        </section>
+
+        <!-- Seção 2: contém um vídeo -->
+        <section>
+            <h2 class="titulo-section">Professores da U.A</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/KbGuo04x9WM" name="video"
+                title="YouTube video player" frameborder="0" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <!-- Seção 3: contém uma mapa -->
+        <section id="section-maps">
+            <h2 class="titulo-section">U.A</h2>
+            <p class="mapa-info">A escola U.A fica localizado no Japão.
+            </p>
+            <iframe class="mapa" name="mapa"
+                src="https://www.google.com/maps/embed?pb=36.1859531,136.2139101,6.75z/data=!4m15!1m8!3m7!1s0x34674e0fd77f192f:0xf54275d47c665244!2zSmFww6Nv!3b1!8m2!3d36.204824!4d138.252924!16zL20vMDNfM2Q!3m5!1s0x34674e0fd77f192f:0xf54275d47c665244!8m2!3d36.204824!4d138.252924!16zL20vMDNfM2Q?entry=ttu"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <aside class="sidebar">
+            <h3 class="sidebar-titulo">Professores</h3>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/ectoplasma.jfif"
+                    alt="Ectoplasma"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/shouta_aizawa.jpg"
+                    alt="Shouta Aizawa"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/midnight.jpg" alt="Midnight"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/presentmic.jpg"
+                    alt="Present Mic"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/allmight.jpg"
+                    alt="All Might"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/cementoss.jpg" alt="Cementoss"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/hounddog.jpg"
+                    alt="Hound Dog"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/13top.jfif"
+                    alt="13"></a>
+
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="Parceiros/vladkingtop.jpg" alt="Vlad King"></a>
+
+            <p class="sidebar-info">Todos os professores são classificados como profissionais</p>
+            <img class="sidebar-img" src="imagens/plus-ultra-removebg-preview.png" alt="Selo PLUS ULTRA da U.A">
+        </aside>
+
+        <a class="btn_inicio" href="#topo" title="Voltar ao Início">&#8657</a>
+        
+    </main>
+
+    <!-- Rodapé da página: contém o logo e texto -->
+    <footer>
+        <img class="logo-rodape" src="imagens/icone_rodape.jfif" alt="Diretor Nezu">
+        <p class="texto-rodape">Site criado para apresentar brevemente a escola U.A e tirar dúvidas de futuros alunos ou funcionários</p>
+        <p class="texto-rodape"></p>
+        <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
+    </footer>
+</body>
+
+</html>
